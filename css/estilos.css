@@ -1,0 +1,86 @@
+.contacto{
+	border: 4px  dashed #0C42AB;
+	float: left;
+	background: #6D9CD1;
+	width: 40%;
+	margin: 30px;
+}
+.servicios{
+	border: 4px dashed #2F4AA1;
+	float: left;
+    background: #27F5A6;
+
+	width: 31%;
+	margin: 10px
+}
+
+header{
+	background-color: #8BD9D9;
+	border-bottom: 3px solid #2172CC;
+	padding: 10px 20px;
+}
+
+.header-container{
+	display: flex;/*ubicar un elemento a lado de otro*/
+	justify-content: space-between;/*reparte la ubicacion de los elementos*/
+	align-items:center ;
+	max-width: 1100px;
+	margin:0 auto;
+}
+
+.logo{
+	font-size:20px;/*tamaño de fuente*/
+	font-weight: bold;/*negritas*/
+	color: #F7F77C;
+}
+nav ul{
+	list-style: none;/*quitar viñetas*/
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 20px;/*separar elementos*/
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #73A3D9;
+	font-weight: 600;
+	padding: 8px 12px;
+	border-radius: 4px;
+	transition: background-color 0.2s, color 0.5s;
+}
+
+nav ul li a:hover{
+	background-color: #2B823F;
+}
+footer {
+background-color: #1e293b; /* Azul oscuro */
+color: #cbd5e1;
+padding: 20px;
+font-size: 14px;
+clear:both;
+}
+
+.footer-container {
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between; /* Texto a la izquierda, contacto a la derecha */
+align-items: center;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.footer-container p {
+margin: 0;
+}
+
+.footer-container a {
+color: #38bdf8; /* Celeste para resaltar los enlaces directos */
+text-decoration: none;
+}
+
+.footer-container a:hover {
+text-decoration: underline;
+}
+
